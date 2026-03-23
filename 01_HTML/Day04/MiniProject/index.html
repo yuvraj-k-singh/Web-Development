@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Registration Form</title>
+</head>
+<body>
+    <header>
+        <h1>University Registration Form</h1>
+    </header>
+    <main>
+        <p>Please Fill Out the University Registration Form!</p>
+        <hr>
+
+        <h2>Personal Information</h2>
+        <form action="#">
+            <label for="userFirstName">First Name: </label>
+            <input type="text" name="userFirstName" id="userFirstName" placeholder="eg. Yuvraj" required>
+            <br><br>
+
+            <label for="userLastName">Last Name: </label>
+            <input type="text" name="userLastName" id="userLastName" placeholder="eg. Singh" required>
+            <br><br>
+
+            <label for="userDOB">Date of Birth: </label>
+            <input type="date" name="userDOB" id="userDOB" required>
+            <br><br>
+
+            <label for="userGender">Gender: </label>
+            <br>
+            <input type="radio" name="userGender" id="male" value="male" required>
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" name="userGender" id="female" value="female" required>
+            <label for="female">Female</label>
+            <br>
+            <input type="radio" name="userGender" id="other" value="other" required >
+            <label for="other">Other</label>
+            <br><br>
+
+            <label for="userPicture">Upload profile picture: </label>
+            <br>
+            <input type="file" name="userPicture" id="userPicture">
+
+            <hr>
+
+            <h2>Contact Information</h2>
+            <label for="userEmail">Email Address: </label>
+            <input type="email" name="userEmail" id="userEmail" placeholder="eg. name@example.com" required>
+            <br><br>
+
+            <label for="userPhoneNo">Phone Number: </label>
+            <input type="number" name="userPhoneNo" id="userPhoneNo" placeholder="eg. 1234567890">
+            <br><br>
+
+            <label for="userAddress">Address: </label>
+            <br>
+            <textarea name="userAddress" id="userAddress" placeholder="eg. 123 Main Street" rows="2" cols="36" required></textarea>
+            <hr>
+
+            <h2>Academic Information</h2>
+            <label for="userCourse">Select Course: </label>
+            <select name="userCourse" id="userCourse">
+                <option value="CSE">CSE</option>
+                <option value="ME">ME</option>
+                <option value="AIML">AIML</option>
+                <option value="ECE">ECE</option>
+            </select>
+            <br><br>
+
+            <label for="userExtraActivity">Extra Curricular Activities: </label>
+            <br>
+            <input type="checkbox" name="userExtraActivity" id="userExtraActivity" value="Sports">
+            <label for="userExtraActivity">Sports</label>
+            <br>
+            <input type="checkbox" name="userExtraActivity" id="userExtraActivity" value="Dance">
+            <label for="userExtraActivity">Dance</label>
+            <br>
+            <input type="checkbox" name="userExtraActivity" id="userExtraActivity" value="Music">
+            <label for="userExtraActivity">Music</label>
+            <br>
+            <hr>
+
+            <h2>Create Account</h2>
+            <label for="userPassword">Password: </label>
+            <input type="password" name="userPassword" id="userPassword" placeholder="Enter your password" required>
+            <br><br>
+
+            <label for="userSecretQ">Select a secret question: </label>
+            <select name="userSecretQ" id="userSecretQ">
+                <option value="What is your favorite color?">What is your favorite color?</option>
+                <option value="What is the name of your first pet?">What is the name of your first pet?</option>
+                <option value="What is your mother's maiden name?">What is your mother's maiden name?</option>
+            </select>
+            <br><br>
+            <label for="userSecretQAns">Secret Answer: </label>
+            <input type="text" name="userSecretQAns" id="userSecretQAns" placeholder="Enter your answer">
+            <br><br>
+
+            <input type="checkbox" name="userAgree" id="userAgree" required>
+            <label for="userAgree">I agree to the terms and conditions</label>
+            <hr>
+
+            <input type="submit" name="Register" id="registerButton" value="Register">
+            <input type="reset" name="ClearButton" id="clearButton" value="Clear Button">
+        </form>
+    </main>
+</body>
+</html>
