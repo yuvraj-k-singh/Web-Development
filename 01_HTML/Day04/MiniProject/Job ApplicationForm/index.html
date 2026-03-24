@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <header>
+        <h1>Job Application: Senior Software Engineer</h1>
+    </header>
+
+    <main>
+        <p>Please fill out the form below to apply for the Senior Software Engineer position.</p>
+        <hr>
+
+        <form action="#">
+            <h2>Personal Information</h2>
+            <label for="userFullName">Full Name: </label>
+            <br>
+            <input type="text" name="userFullName" id="userFullName" required placeholder="Enter your full name">
+            <br><br>
+
+            <label for="userEmail">Email: </label>
+            <br>
+            <input type="email" name="userEmail" id="userEmail" required placeholder="Enter your email">
+            <br><br>
+
+            <label for="userPhoneNumber">Phone Number: </label>
+            <br>
+            <input type="tel" name="userPhoneNumber" id="userPhoneNumber" placeholder="Enter your phone number"> 
+            <br><br>
+
+            <label for="userLinkedin">LinkedIn Profile: </label>
+            <br>
+            <input type="url" name="userLinkedin" id="userLinkedin" required placeholder="Enter linkedin url">
+            <br><br>
+            <hr>
+
+            <h2>Professional Experience</h2>
+            <label for="userResume">Upload Resume: </label>
+            <br>
+            <input type="file" name="userResume" id="userResume" required>
+            <br><br>
+
+            <label for="userCoverLetter">Cover Letter: </label>
+            <br>
+            <textarea name="userCoverLetter" id="userCoverLetter" placeholder="Enter your cover letter" cols="50" rows="3"></textarea>
+            <br><br>
+
+            <label for="userExperience">Work Experience: </label>
+            <br>
+            <input type="number" name="userExperience" id="userExperience" placeholder="Enter work experience" required max="10">
+            <br><br>
+            <hr>
+
+            <h2>Skills and Availability</h2>
+            <label for="userSkill">Primary Skills: </label>
+            <br>
+            <input type="radio" name="userSkill" id="javascipt" value="JavaScript Developer">
+            <label for="javascipt">JavaScript Developer</label>
+            <br>
+            <input type="radio" name="userSkill" id="java" value="Java Developer">
+            <label for="java">Java Developer</label>
+            <br>
+            <input type="radio" name="userSkill" id="mern" value="Mern Developer">
+            <label for="mern">Mern Developer</label>
+            <br><br>
+
+            <label for="userWorkType">Work Type: </label>
+            <br>
+            <select name="userWorkType" id="userWorkType">
+                <option value="FullTime">Full-Time</option>
+                <option value="PartTime">Part-Time</option>
+            </select>
+            <br><br>
+            <hr>
+
+            <h2>Final Confirmation</h2>
+            <p>Please review your information before submitting the application.</p>
+            <input type="checkbox" name="userAgreement" id="userAgreement" value="True" required>
+            <label for="userAgreement">I agree to the terms and conditions.</label>
+            <br><br>
+
+            <input type="submit" value="Submit Application">
+            <input type="reset" name="clearForm" id="clearForm" value="Clear Form">
+
+        </form>
+    </main>
+</body>
+</html>
