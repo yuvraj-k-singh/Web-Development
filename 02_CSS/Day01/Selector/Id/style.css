@@ -1,0 +1,28 @@
+/* Universal Selector */
+*{
+    background-color: lightgreen;
+}
+
+
+/* ID Selectors */
+#heading1{
+    background-color: lightgray;
+}
+
+#heading2{
+    background-color: bisque;
+}
+
+#heading3{
+    background-color: gray;
+}
+
+/* Class Selector */
+.same{
+    background-color: lime;
+}
+
+/* Element Selector */
+h1{
+    background-color: blue;
+}
