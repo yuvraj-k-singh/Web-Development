@@ -1,0 +1,9 @@
+/* Group Selector */
+
+h1, h2{
+    background-color: lightcoral;
+}
+
+h3, #para{
+    background-color: lightpink;
+}
