@@ -1,0 +1,18 @@
+/* Universal Selector */
+*{
+    background-color: rgb(228, 154, 63);
+}
+
+/* Element Selectors */
+
+h1{
+    background-color: blueviolet;
+}
+
+h2{
+    background-color: brown;
+}
+
+p{
+    background-color: gold;
+}
