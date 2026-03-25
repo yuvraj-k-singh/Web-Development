@@ -1,0 +1,13 @@
+/* Universal Selector */
+*{
+    background-color: lightgreen;
+}
+
+/* Class Selectors */
+.same{
+    background-color: lightskyblue;
+}
+
+.different{
+    background-color: greenyellow;
+}
