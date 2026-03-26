@@ -1,0 +1,19 @@
+/* RGB color */
+h1{
+    color: rgb(255, 0, 0);
+}
+
+/* Hexadecimal color */
+#Hero{
+    color: #00224D;
+}
+
+/* Named color */
+p{
+    color: darkgoldenrod;
+}
+
+/* RGBA color with alpha channel */
+h2{
+    color: rgba(210, 50, 180, 0.8);
+}
