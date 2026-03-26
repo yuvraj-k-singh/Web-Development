@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "jost";
+}
+
+h2{
+    font-size: 64px;
+    font-weight: bold;
+    color: brown;
+}
+
+p{
+    font-size: 32px;
+    font-weight: 200;
+    color: white;
+}
+
+.section-1{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-image: url("https://templatemo.com/templates/templatemo_612_parallax_starter/images/parallax-bg-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.section-2{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-image: url("https://templatemo.com/templates/templatemo_612_parallax_starter/images/parallax-bg-04.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.section-3{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-image: url("https://templatemo.com/templates/templatemo_612_parallax_starter/images/parallax-bg-05.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
