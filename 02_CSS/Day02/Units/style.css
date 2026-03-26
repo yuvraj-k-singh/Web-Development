@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Pixels Units*/
+h1{
+    font-size: 50px;
+    width: 100vw;
+    color: black;
+    background-color: blueviolet;
+}
+
+/* ViewPort units */
+.parent{
+    width: 100vw;
+    height: 25vh;
+    background-color: rebeccapurple;
+}
+
+/* Percentage Unit */
+.child{
+    font-size: 60px;
+    height: 70%;
+    width: 50%;
+    background-color: brown;
+}
+
+/* em Unit */
+.parent2{
+    width: 100vw;
+    height: 40vh;
+    background-color: green;
+}
+
+/* rem Unit */
+.child2{
+    font-size: 3em;
+    height: 4rem;
+    background-color: chocolate;
+}
