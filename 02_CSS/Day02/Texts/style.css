@@ -1,0 +1,43 @@
+body{
+    background-color: rgba(23, 249, 249, 0.763);
+    display: grid;
+    place-items: center;
+}
+
+.main{
+    width: 50%;
+}
+
+/* Text align */
+h1{
+    font-size: 56px;
+    text-align: center;
+    color: brown;
+}
+
+p{
+    text-align: center;
+}
+
+/* Text decoration */
+
+h1{
+    text-decoration: line-through;
+}
+
+p{
+    text-decoration: underline;
+}
+
+/* Text Transformation */
+
+h1{
+    text-transform: capitalize;
+}
+
+/* Text spacing */
+
+p{
+    word-spacing: 1px;
+    font-size: 19px;
+}
