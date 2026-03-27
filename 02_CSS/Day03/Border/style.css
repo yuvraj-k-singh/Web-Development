@@ -1,0 +1,35 @@
+/* Border width */
+
+h1{
+    border-top: 2px solid blue;
+    border-width: 2px;
+} 
+
+/* Border style */
+
+h1{
+    border-style: solid;
+}
+
+/* Border Color */
+
+h1{
+    border-color: blue;
+}
+
+/* Border radius */
+
+div{
+    width: 250px;
+    height: 250px;
+    background-color: brown;
+    border-radius: 20px;
+    padding: 0.2px 0px 0px 5px;
+}
+
+/* Border short hand */
+
+#para{
+    background-color: red;
+    border: 5px double grey;
+}
