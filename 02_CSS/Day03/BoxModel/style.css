@@ -1,0 +1,30 @@
+body{
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    text-align: center;
+    color: darkgreen;
+    font-weight: 700;
+}
+
+p{
+    background-color: aqua;
+    border: 3px solid blue;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 0.5px;
+    font-size: 1rem;
+    width: 60vw;
+}
+
+/* Padding */
+
+p{
+    padding: 10px;
+}
+
+/* Margin */
+.main-1{
+    margin-bottom: 50px;
+}
