@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    height: 50px;
+    background-color: #1f1f1f;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#logo{
+    height: 50px;
+    width: 50px;
+    padding: 7px 12px;
+}
+
+#links{
+    margin-left: 120px;
+}
+
+a{
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: 900px;
+    padding: 50px;
+    text-decoration: none;
+}
+
+#button{
+    margin-left: 180px;
+    padding-right: 40px;
+}
+
+.search-box {
+    width: 220px;
+    height: 35px;
+    border: 2px solid rgb(132, 0, 255);
+    border-radius: 5px;
+}
+
+.s-button{
+    height: 35px;
+    width: 90px;
+    background-color: rgb(201, 5, 5);
+    border-radius: 8px;
+    border: 2px solid blue;
+}
+
+.hero{
+    height: calc(100vh - 50px);
+    width: 100%;
+    background-image: url("https://templatemo.com/templates/templatemo_612_parallax_starter/images/parallax-bg-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    background-attachment: fixed;
+}
+
+#h1-main{
+    font-size: 80px;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://templatemo.com/templates/templatemo_612_parallax_starter/images/parallax-bg-02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    background-attachment: fixed;
+}
+
+.contact{
+    height: calc(100vh - 50px);
+    width: 100%;
+    background-image: url("https://templatemo.com/templates/templatemo_612_parallax_starter/images/parallax-bg-05.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    background-attachment: fixed;
+}
+
+.footer{
+    height: 50px;
+    width: 100%;
+    padding-top: 15px;
+    text-align: center;
+}
