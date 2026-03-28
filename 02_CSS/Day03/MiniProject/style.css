@@ -67,7 +67,7 @@ a{
 }
 
 .main{
-    height: 100vh;
+    height: calc(100vh - 50px);
     width: 100%;
     background-image: url("https://templatemo.com/templates/templatemo_612_parallax_starter/images/parallax-bg-02.jpg");
     background-repeat: no-repeat;
