@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: grid;
+    place-items: center;
+}
+
+/* Content box */
+.main-1{
+    height: 200px;
+    width: 250px;
+    border: 2px solid blue;
+    margin-bottom: 20px;
+    background-color: bisque;
+    box-sizing: content-box;
+}
+
+/* Border box */
+.main-2{
+    height: 200px;
+    width: 250px;
+    border: 2px solid yellow;
+    background-color: rgb(185, 137, 78);
+    box-sizing: border-box;
+}
