@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+    height: 390px;
+    width: 600px;
+    background-color: white;
+}
+
+.color-1{
+    height: 130px;
+    width: 100%;
+    background-color: orange;
+}
+
+.color-2{
+    height: 130px;
+    width: 100%;
+    background-color: white;
+    display: grid;
+    place-items: center;
+}
+
+.color-3{
+    height: 130px;
+    width: 100%;
+    background-color: green;
+    display: grid;
+    place-items: center;
+}
+
+.circle{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Ashoka_Chakra.svg/960px-Ashoka_Chakra.svg.png");
+    background-size: cover;
+}
+
+h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
