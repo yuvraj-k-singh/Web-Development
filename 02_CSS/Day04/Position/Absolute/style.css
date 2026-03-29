@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    width: 400px;
+    height: 400px;
+    background-color: lightcoral;
+    margin: 0% auto;
+    margin-top: 60px;
+    position: relative;
+}
+
+.child-1, .child-2, .child-3{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid black;
+}
+
+.child-1{
+    position: absolute;
+    top: 300px;
+}
+
+.child-3{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
