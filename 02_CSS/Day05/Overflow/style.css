@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(216, 219, 222);
+    height: 100vh;
+    width: 100%;
+}
+
+.main{
+    margin-top: 50px;
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    margin-top: 50px;
+    width: 600px;
+    height: 200px;
+    background-color: white;
+    padding: 20px;
+}
+
+/* Visible overflow */
+.container{
+    overflow: visible;
+}
+
+/* Hidden overflow */
+.container{
+    overflow: hidden;
+}
+
+/* Scroll overflow */
+.container{
+    overflow: scroll;
+    overflow-y: scroll;
+}
+
+/* Auto overflow */
+.container{
+    overflow: auto;
+}
