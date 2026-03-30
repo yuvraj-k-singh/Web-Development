@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    padding: 0 20px;
+    background-color: antiquewhite;
+}
+
+h1::first-letter{
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+span{
+    color: salmon;
+}
+
+h1{
+    color: rgb(57, 22, 22);
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p{
+    text-align: justify;
+    text-transform: capitalize;
+    padding: 10px;border: 2px solid black;
+}
+
+/* Column count */
+p{
+    column-count: 5;
+}
+
+/* Column rule */
+p{
+    column-rule: 2px solid grey;
+}
+
+/* Column gap */
+p{
+    column-gap: 20px;
+}
