@@ -16,7 +16,7 @@
 }
 
 .login-container{
-    height: 600px;
+    height: 650px;
     width: 400px;
     background-color: antiquewhite;
     border-radius: 15px;
@@ -61,13 +61,11 @@ p{
 }
 
 .input-container{
-    padding: 15px;
     width: 80%;
     height: 250px;
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
-    gap: 6px;
+    margin-top: 15px;
 }
 
 .input-label{
@@ -81,7 +79,7 @@ input{
     padding-left: 10px;
     height: 45px;
     width: 100%;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
     border-radius: 6px;
     border: 2px solid green;
 }
@@ -119,7 +117,10 @@ button{
     width: 100%;
     height: 45px;
     border-radius: 20px;
-    background-color: #1DB954;
+    background-color: #591db9;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
 }
 
 .or{
@@ -129,7 +130,7 @@ button{
 }
 
 .line-div{
-    margin-top: 15px;
+    margin: 10px 0;
     width: 80%;
     display: flex;
     justify-content: center;
@@ -137,7 +138,7 @@ button{
 }
 
 hr{
-    width: 43%;
+    width: 40%;
     margin: 1px;
 }
 
@@ -149,6 +150,51 @@ hr{
     align-items: center;
     font-size: medium;
     font-weight: 600;
+}
+
+.other-login{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.google-btn, .apple-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+    height: 45px;
+    border-radius: 20px;
+}
+
+.google-btn{
+    color: black;
+    background-color: white;
+}
+
+.apple-btn{
+    background-color: black;
+    color: white;
+}
+
+.google-logo, .apple-logo{
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.google-logo{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/3840px-Google_%22G%22_logo.svg.png");
+}
+
+.apple-logo{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/070/730/255/small/computer-logo-white-phone-icon-in-transparent-background-free-png.png");
 }
 
 
