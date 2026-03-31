@@ -4,12 +4,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .login-screen{
     height: 100vh;
     width: 100%;
-    background-color: #8B5DFF;
+    background-image: linear-gradient(#8B5DFF, #410445);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,11 +20,12 @@
     height: 650px;
     width: 400px;
     background-color: antiquewhite;
-    border-radius: 15px;
+    border-radius: 0px 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
 }
 
 .login-header{
