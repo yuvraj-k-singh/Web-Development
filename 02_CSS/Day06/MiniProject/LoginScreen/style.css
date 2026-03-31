@@ -113,7 +113,6 @@ input{
     justify-content: center;
     align-items: center;
     height: 45px;
-    padding: 15px;
 }
 
 button{
@@ -122,4 +121,35 @@ button{
     border-radius: 20px;
     background-color: #1DB954;
 }
+
+.or{
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+}
+
+.line-div{
+    margin-top: 15px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    width: 43%;
+    margin: 1px;
+}
+
+.line{
+    margin: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    font-weight: 600;
+}
+
+
 
