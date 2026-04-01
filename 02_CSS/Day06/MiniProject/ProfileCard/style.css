@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+.profil-card{
+    height: 100vh;
+    width: 100%;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container, .card-1, .profile-container-1, .img-1, .card-2, .profile-container-2, .img-2, .card-3, .profile-container-3, .img-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container{
+    margin: 0px 15px;
+    height: 500px;
+    width: 100%;
+    gap: 20px;
+}
+
+.card-1, .card-2, .card-3{
+    height: 430px;
+    width: 18%;
+    border-radius: 15px;
+    background-color: brown;
+    padding: 3px 3px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-1{
+    background-color: #FAFAFA;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+.card-2{
+    background-color: #fafafa96;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+.card-3{
+    background-color: #231F39;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.profile-container-1, .profile-container-2, .profile-container-3{
+    height: 200px;
+    width: 200px;
+}
+
+.profile-container-1{
+    height: 650px;
+    width: 100%;
+    padding: 1px 2px;
+}
+
+.profile-container-2{
+    height: 100%;
+    width: 100%;
+    padding: 1px 2px;
+    flex-direction: column;
+}
+
+.profile-container-3{
+    height: 70%;
+    width: 100%;
+    padding: 1px 2px;
+    flex-direction: column;
+}
+
+.skills{
+    height: 30%;
+    width: 95%;
+}
+
+#skills-h2{
+    color: #E26EE5;
+}
+
+.span-skill{
+    color: white;
+    background-color: #FF7070;
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    margin: 2px;
+    border-radius: 3px;
+    padding: 1px;
+}
+
+.img-1, .img-2{
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-1, .img-2{
+    height: 100%;
+    width: 100%;
+}
+
+.img-3{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    background-image: url("https://imageio.forbes.com/specials-images/imageserve/67f01063606452edde11a29f/Photo-by-Lionel-Hahn-Getty-Images/0x0.jpg?format=jpg&crop=1283,866,x0,y40,safe&width=960");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1.8px solid blue;
+}
+
+.img-2{
+    background-image: url("https://www.mordeo.org/files/uploads/2024/03/Sydney-Sweeney-Magazine-2024-Photoshoot.jpg");
+    background-position: center;
+}
+
+.img-1{
+    background-image: url("./sydney-sweeney.png");
+}
+
+.text-1, .text-2{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+
+.text-3{
+    height: 50px;
+    width: 100%;
+}
+
+.text-2{
+    margin-top: 515px;
+}
+
+.name-box1, .name-box2, .name-box3{
+    color: #191717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+}
+
+.name-box2, .name-box3{
+    color: aqua;
+}
+
+.name-box3{
+    color: #72BF78;
+    padding: 8px 0px;
+}
+
+.blue-tick1, .blue-tick2{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/029/169/454/non_2x/verify-gold-tick-free-png.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#name-1, #name-2, #name-3{
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.para-1, .para-2, para-3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.para-2{
+    color: lightgreen;
+}
+
+.p1, .p2{
+    padding: 3px 5px;
+    text-align: justify;
+}
+
+.follow1, .follow2, .follow3{
+    height: 35px;
+    width: 140px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-color: #EFEFEF;
+}
+
+.follow2{
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+.follow3{
+    background-color: #F6FF99;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
