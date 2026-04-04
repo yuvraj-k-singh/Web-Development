@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.news-letter{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.back-color1, .back-color2{
+    height: 50%;
+    width: 100%;
+}
+
+.back-color1{
+    background-color: #141528;
+}
+
+.back-color2{
+    background-color: brown;
+}
+
+.email-container{
+    position: absolute;
+    top: 29%;
+    right: 17%;
+    height: 280px;
+    border-radius: 20px;
+    width: 65%;
+    background-image: linear-gradient(to right, #E368A2, #FB5D67);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.email-container h2{
+    color: white;
+    font-weight: 900;
+    font-size: 2.7rem;
+}
+
+.email-container p{
+    margin-top: -4px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.submit-btn{
+    height: 60px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+input{
+    color: #333;
+    height: 50px;
+    width: 300px;
+    padding-left: 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 8px 0px 0px 8px;
+}
+
+input::placeholder {
+  color: white;
+  opacity: 1; /* makes it more visible */
+}
+
+button{
+    font-weight: 700;
+    color: blue;
+    height: 50px;
+    width: 150px;
+    border-radius: 0px 8px 8px 0px;
+    border: 2px solid white;
+    background-color: white;
+    margin-left: -2.7px;
+}
