@@ -6,8 +6,56 @@
 }
 
 /* ------ Header Section --------- */
+.nav-bar{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    padding: 0 30px;
+    background-color: #3a5d8f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    height: 35px;
+    width: 70px;
+    background-image: url("https://media.geeksforgeeks.org/gfg-gg-logo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-bar a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0 50px;
+    text-decoration: none;
+}
+
+.btn-container{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-container button{
+    font-size: 0.9rem;
+    height: 40px;
+    width: 140px;
+    border-radius: 17px;
+    background-color: yellowgreen;
+}
 
 /* ------ Hero Section --------- */
+
+body{
+    position: relative;
+}
 
 .hero-section{
     height: 100vh;
@@ -54,7 +102,21 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 650px;
-    width: 600px;
+    height: 450px;
+    width: 500px;
     filter: drop-shadow(-3px 10px 0.6px #e2dede);
+}
+
+.whatsapp{
+    height: 60px;
+    width: 60px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/018/930/564/non_2x/whatsapp-logo-whatsapp-icon-whatsapp-transparent-free-png.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    background-color: #3a5d8f;
+    position: absolute;
+    right: 25px;
+    top: 50%;
 }
