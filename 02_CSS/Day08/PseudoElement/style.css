@@ -53,10 +53,6 @@
 
 /* ------ Hero Section --------- */
 
-body{
-    position: relative;
-}
-
 .hero-section{
     height: 100vh;
     width: 100%;
@@ -90,10 +86,12 @@ body{
 }
 
 .box-text h1{
+    position: relative;
     align-self: flex-start;
 }
 
 .box-text p{
+    letter-spacing: 2px;
     font-size: 1.2rem;
 }
 
@@ -119,4 +117,58 @@ body{
     position: absolute;
     right: 25px;
     top: 50%;
+}
+
+.box-text{
+    gap: 20px;
+}
+
+.box-text button{
+    align-self: flex-start;
+    height: 49px;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 12px;
+    background-color: rgb(85, 89, 77);
+    font-size: 1.1rem;
+}
+
+/* -------------------Pseudo Elements------------------- */
+
+/* Before */
+.box-text h1::before{
+    content: "\f121";
+    font-family: "Font Awesome 7 Free";
+    position: absolute;
+    top: -30px;
+    font-size: 35px;
+    color: green;
+}
+
+/* After */
+.box-text h1::after{
+    content: "";
+    border: 2px solid gray;
+    width: 60%;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+}
+
+/* First Letter */
+.box-text p::first-letter{
+    font-size: 35px;
+    text-transform: capitalize;
+    color: yellow;
+}
+
+/* First Line */
+.box-text p::first-line{
+    text-decoration: underline;
+    color: darkgoldenrod;
+}
+
+/* Selection */
+.box-text p::selection{
+    background-color: rgba(211, 211, 211, 0.5);
 }
