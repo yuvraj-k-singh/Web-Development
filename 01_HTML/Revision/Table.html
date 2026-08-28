@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML table</title>
+</head>
+<body>
+    <main>
+        <!-- First Table -->
+         <h2>Basic Table</h2>
+         <table border="2px" height="150px" width="450px">
+            <thead>
+                <th>Name</th>
+                <th>Role</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Yuvraj Kumar</td>
+                    <td>Full stack Developer</td>
+                </tr>
+                <tr>
+                    <td>Anish Kumar</td>
+                    <td>Frontend Developer</td>
+                </tr>
+                <tr>
+                    <td>Vikash Rajput</td>
+                    <td>Backend Developer</td>
+                </tr>
+            </tbody>
+         </table>
+         <br>
+         <hr>
+
+         <h2>Fruit Shop Table</h2>
+         <table border="2px" height="200px" width="450px">
+            <thead>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </thead>
+            <tr>
+                <td>Apple</td>
+                <td>25</td>
+                <td>$2</td>
+            </tr>
+            <tr>
+                <td>Banana</td>
+                <td>156</td>
+                <td>$8</td>
+            </tr>
+            <tr>
+                <td>Orange</td>
+                <td>60</td>
+                <td>$9</td>
+            </tr>
+            <tr>
+                <td>Grapes</td>
+                <td>120</td>
+                <td>$6</td>
+            </tr>
+         </table>
+         <br>
+         <hr>
+
+         <h2>Contact Table</h2>
+         <table border="2px" width="450px" height="200px">
+            <thead>
+                <th>Name</th>
+                <th colspan="2">Contact</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Yuvraj</td>
+                    <td>Yuvraj@gmail.com</td>
+                    <td>+91 8269456851</td>
+                </tr>
+                <tr>
+                    <td>Param</td>
+                    <td>Param@gmail.com</td>
+                    <td>+91 8475566648</td>
+                </tr>
+                <tr>
+                    <td>Payal</td>
+                    <td>Payal@gmail.com</td>
+                    <td>+91 7866685585</td>
+                </tr>
+            </tbody>
+         </table>
+         <br>
+         <hr>
+
+         <h2>Advance Table 1</h2>
+         <table border="2px" height="200px" width="450px">
+            <thead>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+            </thead>
+            <tr>
+                <td rowspan="2">Row 1 Cell 1</td>
+                <td>Row 1 Cell 2</td>
+                <td>Row 1 Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2 Cell 2</td>
+                <td>Row 2 Cell 3</td>
+            </tr>
+            <tr>
+                <td colspan="3">Row 3 Cell 1</td>
+            </tr>
+         </table>
+         <br>
+         <hr>
+
+         <h2>Advance Table 2</h2>
+         <table border="2px" height="300px" width="450px">
+            <thead>
+                <th>Level 1</th>
+                <th>Level 2</th>
+                <th>Level 3</th>
+                <th>Level 4</th>
+                <th>Level 5</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="6">System</td>
+                    <td rowspan="4">System App</td>
+                    <td rowspan="3">System ENV</td>
+                    <td>App Test</td>
+                    <td rowspan="2">FOO</td>
+                </tr>
+                <tr>
+                    <td>App Memory</td>
+                </tr>
+                <tr>
+                    <td>App Test</td>
+                    <td rowspan="2">Bar</td>
+                </tr>
+                <tr>
+                    <td>System ENV</td>
+                    <td>App Memory</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" colspan="2">System Memory</td>
+                    <td>App Function</td>
+                    <td>FOO</td>
+                </tr>
+                <tr>
+                    <td>App Test</td>
+                    <td>BAR</td>
+                </tr>
+            </tbody>
+         </table>
+    </main>
+</body>
+</html>
