@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Student Form</title>
+</head>
+<body>
+    <Header>
+        <h1>University Student Form</h1>
+        <p>Please fill out the form below to register!</p>
+    </Header>
+    <main>
+        <hr>
+        <form action="">
+            <h2>Personal Details</h2>
+            <label for="firstName">First Name: </label>
+            <input type="text" name="firstName" id="firstName">
+            <br><br>
+
+            <label for="lastName">Last Name: </label>
+            <input type="text" name="lastName" id="lastName">
+            <br><br>
+
+            <label for="userDOB">Date of birth: </label>
+            <input type="date" name="userDOB" id="userDOB">
+            <br><br>
+
+            <label for="userGender">Gender: </label>
+            <br>
+            <input type="radio" name="userGender" value="male" id="male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" name="userGender" value="female" id="female">
+            <label for="male">Female</label>
+            <br>
+            <input type="radio" name="userGender" value="other" id="other">
+            <label for="other">Other</label>
+            <br><br>
+
+            <label for="userPicture">Upload your picture: </label>
+            <br>
+            <input type="file" name="userPicture" id="userPicture">
+            <br><br>
+
+            <hr>
+
+            <h2>Contact Information</h2>
+            <label for="userEmail">Email Address: </label>
+            <input type="email" name="userEmail" id="userEmail">
+            <br><br>
+
+            <label for="userPhoneNo">Phone Number: </label>
+            <input type="number" name="userPhoneNo" id="userPhoneNo">
+            <br><br>
+
+            <label for="userAddress">Street Address: </label>
+            <br>
+            <textarea name="userAddress" id="userAddress" cols="35" rows="5"></textarea>
+            <br><br>
+
+            <hr>
+
+            <h2>Academic Information</h2>
+            <label for="userCourse">Select Course: </label>
+            <select name="userCourse" id="userCourse">
+                <option value="CSE">CSE</option>
+                <option value="ME">ME</option>
+                <option value="ECE">ECE</option>
+            </select>
+            <br><br>
+
+            <label for="userExtraActivities">Select Extra Actitvies: </label>
+            <br>
+            <input type="checkbox" id="Sports" name="userExtraActivities" value="Sports">
+            <label for="Sports">Sports</label>
+            <br>
+            <input type="checkbox" id="Music" name="userExtraActivities" value="Music">
+            <label for="Music">Music</label>
+            <br>
+            <input type="checkbox" id="Drawing" name="userExtraActivities" value="Drawing">
+            <label for="Drawing">Drawing</label>
+            <br><br>
+
+            <hr>
+
+            <h2>Create Account</h2>
+            <label for="userPass">Create a password: </label>
+            <input type="password" name="userPass" id="userPass">
+            <br><br>
+
+            <input type="checkbox" name="userAgree" id="userAgree" value="true">
+            <label for="userAgree">I agree to all Terms and Conditions.</label>
+            <br><br>
+
+            <hr>
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+        </form>
+    </main>
+</body>
+</html>
