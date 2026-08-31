@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero-section{
+    background-color: #3368A0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-container{
+    width: 65%;
+}
+
+p{
+    font-size: 1rem;
+}
+
+/* Text alignment */
+h1{
+    text-align: center;
+    color: goldenrod;
+    font-weight: 900;
+    
+}
+
+/* Text decoration */
+h2{
+    color: cyan;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 2px;
+}
+
+/* Text spacing */
+p{
+    color: burlywood;
+    letter-spacing: 0.9px;
+    word-spacing: 0.9px;
+    line-height: 1.25;
+}
+
+/* Text transformation */
+h1{
+    text-transform: uppercase;
+}
+
+p{
+    text-transform: lowercase;
+}
+
+/* Text shadow */
+h1{
+    text-shadow: 2px 2px black;
+}
