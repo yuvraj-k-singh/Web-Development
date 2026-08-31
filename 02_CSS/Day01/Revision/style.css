@@ -1,0 +1,33 @@
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element selector */
+h1{
+    color: blue;
+}
+
+/* ID selector */
+#first_heading{
+    color: brown;
+}
+
+/* Class selector */
+.second_heading{
+    color: chartreuse;
+}
+
+/* Group selector */
+li, p{
+    color: green;
+}
+
+/* Color property */
+h1{
+    color: rgb(54, 165, 42);
+    color: rgb(255, 0, 255);
+    color: rgba(169, 15, 36, 0.7);
+}
