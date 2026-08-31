@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section-1, .section-2, .main-1, .main-2{
+    height: 100vh;
+    width: 100%;
+}
+
+.main-1{
+    background-color: blue;
+}
+
+.main-2{
+    background-color: #bd1717;
+}
+
+
+#div1, #div2{
+    margin: auto;
+    height: 40%;
+    width: 200px;
+    background-color: #831e1e;
+    border: 2px solid goldenrod;
+    padding: 80px;
+}
