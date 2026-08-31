@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Background attachment */
+.section-1, .section-2, .section-3{
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+h2{
+    color: brown;
+}
+
+/* Background color */
+.section-1{
+    background-color: rgb(174, 109, 43);
+}
+
+/* Background image */
+.section-2{
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg);
+}
+
+.section-3{
+    background-image: url(https://forum.level1techs.com/uploads/default/1553/97539f6c79192e47.jpg);
+}
+
+/* Background repeat */
+.section-2, .section-3{
+    background-repeat: no-repeat;
+}
+
+/* Background size */
+.section-3, .section-2{
+    background-size: cover;
+}
+
+/* Background position */
+.section-1, .section-2, .section-3{
+    background-position: center center;
+}
