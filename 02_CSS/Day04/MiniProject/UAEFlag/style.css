@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(237, 227, 227);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag-container{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#first{
+    height: 100%;
+    width: 30%;
+    background-color: #C8102E;
+}
+
+#second, #third, #forth{
+    position: absolute;
+    height: 34%;
+    width: 70%;
+}
+
+#second{
+    background-color: #00843D;
+    top: 0;
+    right: 0;
+}
+
+#third{
+    background-color: white;
+    top: 33%;
+    right: 0;
+}
+
+#forth{
+    background-color: black;
+    top: 66%;
+    right: 0;
+}
+
+h1{
+    color: chocolate;
+    text-align: center;
+    font-weight: 800;
+    padding: 25px 15px;
+}
