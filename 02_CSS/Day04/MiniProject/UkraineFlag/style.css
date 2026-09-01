@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag-container{
+    height: 400px;
+    width: 650px;
+}
+
+#upper{
+    border-radius: 15px 15px 0px 0px;
+    height: 50%;
+    width: 100%;
+    background-color: #1867BF;
+}
+
+#lower{
+    border-radius: 0 0 15px 15px;
+    height: 50%;
+    width: 100%;
+    background-color: #FFD550;
+}
+
+h1{
+    color: rgba(30, 119, 174, 0.79);
+    padding: 30px 20px;
+    text-align: center;
+}
