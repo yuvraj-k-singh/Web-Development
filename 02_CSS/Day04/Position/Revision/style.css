@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    background-color: white;
+    z-index: 9999;
+}
+
+.nav-container{
+    width: 100vw;
+    text-align: center;
+    padding: 20px 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.hero{
+    overflow: hidden;
+    min-height: calc(100vh - 80px);
+    width: 100%;
+    margin-top: 80px;
+}
+
+.hero-container{
+    height: 500px;
+    width: 80%;
+    background-color: brown;
+    margin: 40px auto;
+    position: relative;
+}
+
+.contact{
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.6px;
+    color: white;
+    padding: 50px 20px;
+    background-color: darkblue;
+}
+
+.contact h2{
+    display: inline-block;
+    text-align: left;
+    padding: 6px 10px;
+    margin-bottom: 15px;
+    font-size: 1.9rem;
+    color: rgb(12, 200, 49);
+    border-left: 3px solid rgb(210, 28, 28);
+}
+
+.child{
+    height: 90px;
+    width: 150px;
+    background-color: blue;
+    border: 2px solid black;
+    padding: 30px 50px;
+}
+
+/* Static */
+.child-1{
+    position: static;
+    top: 50%;
+}
+
+/* relative */
+.child-2{
+    position: relative;
+    top: 120px;
+    left: 37.5%;
+}
+
+/* absolute */
+.child-3{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.child-4{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.child-5{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* fixed */
+.navbar{
+    position: fixed;
+    top: 0;
+}
+
+/* sticky */
+.contact h2{
+    position: sticky;
+    top: 90px;
+}
