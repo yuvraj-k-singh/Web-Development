@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 400px;
+    width: 60%;
+    border-radius: 12px;
+}
+
+h1{
+    padding: 10px 20px;
+    margin: 5px;
+    text-shadow: 2px 1px 2px black;
+    color: aliceblue;
+    font-size: 2.5rem;
+}
+
+h2{
+    color: coral;
+    margin: 5px 5px;
+    padding: 8px 5px;
+    border-left: 3px solid blue;
+}
+
+p{
+    padding: 5px 10px;
+    line-height: 21px;
+    color: azure;
+}
+
+.overflow-1, .overflow-2{
+    height: 200px;
+    width: 100%;
+    background-color: brown;
+}
+
+/* Overflow visible */
+.overflow-1{
+    overflow: visible;
+}
+
+/* Overflow  Hidden*/
+.overflow-1{
+    overflow: hidden;
+}
+
+/* Overflow scroll */
+.overflow-2{
+    overflow: scroll;
+}
+
+/* Overflow auto */
+.overflow-1, .overflow-2{
+    overflow: auto;
+}
