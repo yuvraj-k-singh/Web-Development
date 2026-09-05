@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    text-align: center;
+    border: 2px solid black;
+    margin: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.grid-container{
+    height: 600px;
+    width: 60%;
+    border: 5px;
+    background-color: brown;
+}
+
+/* Grid parent property */
+.grid-container{
+    
+}
+
+/* Grid child property */
+.item{
+    
+}
+
+/* Responsive */
+@media (width < 1299px) {
+    .grid-container{
+        
+    }
+}
