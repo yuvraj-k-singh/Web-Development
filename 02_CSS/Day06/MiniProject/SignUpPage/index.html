@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <section class="sign-up">
+            <div class="signup-container">
+                <h1>Create Account</h1>
+                <form action="#">
+                    <input type="text" id="userName" name="userName" placeholder="Enter your name">
+                    <br>
+                    <input type="email" id="userEmail" name="userEmail" placeholder="Enter your email" required>
+                    <br>
+                    <input type="password" name="userPass" id="userPass" placeholder="Create Password" required>
+                    <br>
+                    <input type="password" name="userConfirmPass" id="userConfirmPass" placeholder="Confirm password" required>
+                    <br>
+                    <div class="userConfirm-container">
+                        <input type="checkbox" id="userConfirm" name="userConfirm" value="true" required>
+                        <label for="userConfirm">I accept all terms & conditions</label>
+                    </div>
+                    <br>
+                    <button type="submit" class="signup-btn">Register Now</button>
+                    <br>
+                    <h3>Already have an Account? <a href="#">Login Now</a></h3>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
