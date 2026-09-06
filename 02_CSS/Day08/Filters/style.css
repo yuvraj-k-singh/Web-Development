@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(234, 248, 243);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero{
+    width: 800px;
+}
+
+img{
+    border-radius: 18px;
+    width: 100%;
+}
+
+/* grayscale */
+img{
+    filter: grayscale(1);
+}
+
+/* opacity */
+img{
+    filter: opacity();
+}
+
+/* blur */
+img{
+    filter: blur(2px);
+}
+
+/* Brightness */
+img{
+    filter: brightness(50%);
+}
+
+/* Contrast */
+img{
+    filter: Contrast(100%);
+}
+
+/* Invert */
+img{
+    filter: Invert(1);
+}
