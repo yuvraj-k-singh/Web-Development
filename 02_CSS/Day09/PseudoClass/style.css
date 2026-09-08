@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+main{
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section{
+    height: 400px;
+    width: 45%;
+    padding: 15px 25px;
+    background-color: rgb(18, 17, 16);
+}
+
+a{
+    font-size: 2rem;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    padding: 15px 25px;
+    border: 1px solid white;
+    text-decoration: none;
+}
+
+.list-container{
+    font-size: 2.5rem;
+    margin-top: 20px;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid white;
+    padding: 20px 30px;
+    font-weight: 350;
+    letter-spacing: 0.8px;
+    line-height: 38px;
+}
+
+/* Link */
+a:link{
+    color: yellow;
+}
+
+/* Hover */
+a:hover{
+    color: blue;
+    font-size: 2.5rem;
+}
+
+/* Active */
+a:active{
+    color: gainsboro;
+    font-weight: 800;
+}
+
+/* first child */
+.list-container ul:first-child{
+    color: rgb(42, 165, 79);
+}
+
+/* last child */
+.list-container ul:last-child{
+    color: blue;
+}
+
+/* nth child */
+.list-container ul:nth-child(2){
+    color: chocolate;
+}
+
+/* nth type */
+.list-container ul li:nth-of-type(2){
+    color: tomato;
+}
