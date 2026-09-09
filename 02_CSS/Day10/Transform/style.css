@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero-section{
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    border: 8px solid blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: auto;
+    width: 50%;
+    border: 8px solid blueviolet;
+    transition: all 1s linear 0.1s;
+}
+
+/* translate */
+/* img:hover{
+    transform: translate(100px, 100px);
+    translate: 100px 0px;
+} */
+
+/* Scale */
+img:hover{
+    transform: scale(0.5);
+    scale: 1.1;
+}
+
+/* rotate */
+img:hover{
+    rotate: 35deg;
+}
+
+/* transform-origin */
+img:hover{
+    transform-origin: center;
+}
+
+/* Short hand */
+img:hover{
+    transform: translate(50px) scale(0.5) rotate(10deg);
+}
