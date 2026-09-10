@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home-section{
+    height: 100vh;
+    width: 100%;
+    background-color: #091540;
+    padding: 10px 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #2F2FE4;
+    box-shadow: 0px 0px 5px 15px #6565ca;
+}
+
+h1{
+    font-size: 3.1rem;
+    color: white;
+}
+
+/* Animation name | Animation Duration | Animation timing function | Animation delay | Animation Iteration count | Animation direction*/
+.circle{
+    animation-name: moveCircle;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-delay: 0.1ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Short hand property */
+.circle{
+    animation: moveCircle 1.5s linear infinite alternate;
+}
+
+/* Animation play state */
+.circle:hover{
+    animation-play-state: paused;
+}
+
+@keyframes moveCircle {
+    from{
+        transform: translate(0%);
+    }
+
+    to{
+        transform: translate(calc(90vw - 100px));
+    }
+}
+
+@keyframes moveCircle {
+    0%{
+        translate: 0%;
+    }
+
+    50%{
+        background-color: green;
+        translate: 50vw 50vh;
+    }
+
+    100%{
+        background-color: burlywood;
+        translate: calc(90vw - 100px);
+    }
+}
