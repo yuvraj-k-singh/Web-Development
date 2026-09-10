@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.game-section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.card-container{
+    height: 370px;
+    width: 260px;
+    position: relative;
+    padding: 5px;
+}
+
+.card{
+    height: 360px;
+    width: 245px;
+    position: absolute;
+    border-radius: 8px;
+    border: 2px solid rgb(21, 11, 11);
+}
+
+.card-1{
+    rotate: 0deg;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/798/696/889/charizard-pokemon-fire-flying-hd-wallpaper-preview.jpg');
+    background-position: center center;
+    background-size: cover;
+    z-index: 4;
+}
+
+.card-2{
+    rotate: -7deg;
+    background-image: url('https://i.pinimg.com/474x/ba/fc/c3/bafcc35ea8edbbf65ed442ee267bad05.jpg');
+    background-position: center center;
+    background-size: cover;
+    z-index: 3;
+}
+
+.card-3{
+    rotate: -14deg;
+    background-image: url('https://i.pinimg.com/736x/60/36/25/603625e23eaede753512402144389928.jpg');
+    background-position: center center;
+    background-size: cover;
+    z-index: 2;
+}
+
+.card-4{
+    rotate: -21deg;
+    background-image: url('https://wallup.net/wp-content/uploads/2019/10/946277-pokemon-748x1029.jpg');
+    background-position: center center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.card-1:hover{
+    z-index: 10;
+}
+
+.card-2:hover{
+    z-index: 20;
+}
+
+.card-3:hover{
+    z-index: 30;
+}
+
+.card-4:hover{
+    z-index: 40;
+}
