@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 10px;
+}
+
+.hero-section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1.5px solid grey;
+    height: 120px;
+    width: 550px;
+    text-align: left;
+    background-color: #853953;
+    color: white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+p{
+    color: #181C14;
+    font-size: 2rem;
+    font-weight: 550;
+}
+
+/* Animation */
+h1, p{
+    animation: moveText 4.5s linear 0.1ms infinite reverse;
+}
+
+@keyframes moveText {
+    0%{
+        translate: -70%;
+    }
+
+    100%{
+        translate: calc(1033px - 480px);
+    }
+}
