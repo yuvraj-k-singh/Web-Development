@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.main-section{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container{
+    width: 600px;
+    height: 350px;
+    background-image: url('/02_CSS/Day12/CreditCard/images/bg.png');
+    background-size: cover;
+    border-radius: 25px;
+    padding: 25px 45px;
+    position: relative;
+}
+
+.chip{
+    padding: 5px 0px;
+    height: 100x;
+    width: 120px;
+    position: absolute;
+    right: 45px;
+
+}
+
+img{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100px;
+    width: 400px;
+    gap: 10px;
+}
+
+.card-logo img{
+    height: auto;
+    width: 25%;
+    object-fit: cover;
+}
+
+.card-no{
+    line-height: 35px;
+    position: absolute;
+    top: 160px;
+    letter-spacing: 1px;
+}
+
+.card-name{
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 45px;
+    font-weight: 700;
+}
+
+.card-date{
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 45px;
+    right: 45px;
+    line-height: 35px;
+}
