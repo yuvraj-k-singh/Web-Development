@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: whitesmoke;
+    z-index: 100;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    position: sticky;
+}
+
+nav{
+    width: 100%;
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 26px;
+}
+
+a{
+    font-size: 2.1rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(51, 54, 54);
+}
+
+h1{
+    font-size: 2.80rem;
+}
+
+input{
+    height: 45px;
+    width: 270px;
+    padding: 15px 20px;
+    font-size: 1.5rem;
+    border-radius: 8px 0px 0px 8px;
+    border-style: none;
+    border: 2px solid white;
+    position: relative;
+}
+
+span{
+    color: yellowgreen;
+}
+
+ul:first-child{
+    color: yellowgreen;
+}
+
+a:hover{
+    color: yellowgreen;
+}
+
+.search-container{
+    margin-left: 45px;
+    width: 310px;
+    background-color: yellowgreen;
+    border-radius: 8px;
+    border-style: none;
+    position: relative;
+    border: 2px solid grey;
+}
+
+#searchIcon{
+    font-size: 2.4rem;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+}
+
+.hero-section{
+    padding: 0px 35px;
+    height: calc(100vh - 88px);
+    width: 100%;
+    background-image: url('./images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero-container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.hero-text,
+.hero-img{
+    padding: 0 15px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-img img{
+    position: absolute;
+    bottom: 0;
+    right: 115px;
+    height: auto;
+}
+
+.hero-p{
+    font-size: 3.5rem;
+}
+
+.hero-h1{
+    font-size: 8.5rem;
+}
+
+.hero-h2{
+    font-size: 3.5rem;
+    font-weight: 400;
+}
