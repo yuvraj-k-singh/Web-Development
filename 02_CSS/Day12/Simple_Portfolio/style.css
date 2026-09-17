@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html{
@@ -36,7 +37,7 @@ nav ul{
 }
 
 a{
-    font-size: 2.1rem;
+    font-size: 1.9rem;
     text-decoration: none;
     font-weight: 600;
     color: rgb(51, 54, 54);
@@ -134,4 +135,21 @@ a:hover{
 .hero-h2{
     font-size: 3.5rem;
     font-weight: 400;
+    animation: typing 7s steps(25) infinite;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    0%{
+        width: 6ch;
+        color: red;
+    }
+    50%{
+        width: 25ch;
+    }
+    100%{
+        width: 6ch;
+        color: violet;
+    }
 }
