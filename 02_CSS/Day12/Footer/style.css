@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-family: "Poppins", sans-serif;
+}
+
+main{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    width: 100%;
+    background-color: brown;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 18px 60px;
+    position: relative;
+}
+
+footer::before{
+    content: ' ';
+    height: 1px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 120px;
+}
+
+footer .top-container{
+    padding: 15px 27px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .top-container .footer-logo{
+    display: flex;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+footer .top-container .footer-logo .logo{
+    font-size: 2.2rem;
+    text-align: left;
+    color: wheat;
+    padding-top: 13px;
+}
+
+h2::first-letter{
+    font-size: 3rem;
+    color: green;
+    text-transform: capitalize;
+}
+
+span{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+footer .top-container .footer-socialmedia{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+}
+
+footer .top-container .footer-socialmedia a{
+    height: 40px;
+    width: 40px;
+    background: red;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 50%;
+    line-height: 40px;
+    color: white;
+    transition: all 0.6s ease-in;
+}
+
+footer .top-container .footer-socialmedia a:hover{
+    scale: 1.30;
+}
+
+footer .top-container .footer-socialmedia a:nth-child(1){
+    background: #2245C5;
+}
+
+footer .top-container .footer-socialmedia a:nth-child(2){
+    background-image: linear-gradient(to bottom right, #FECA53, #2245C5);
+}
+
+footer .top-container .footer-socialmedia a:nth-child(3){
+    background-color: #0C0019;
+}
+
+footer .top-container .footer-socialmedia a:nth-child(4){
+    background: black;
+}
+
+footer .top-container .footer-socialmedia a:nth-child(5){
+    background: red;
+}
+
+footer .bottom-container{
+    padding: 35px 35px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .bottom-container .link-container ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+footer .bottom-container .link-container ul a{
+    text-decoration: none;
+    font-size: 1.0rem;
+    color: azure;
+    font-weight: 600;
+    line-height: 25px;
+    transition: all 0.7s ease-in-out;
+}
+
+
+footer .bottom-container .link-container ul a:hover{
+    color: rgb(224, 143, 36);
+}
+
+footer .bottom-container .link-container h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
+    position: relative;
+}
+
+footer .bottom-container .link-container h3::before{
+    content: ' ';
+    height: 2px;
+    width: 38px;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+footer .bottom-container .subscribe-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 33px;
+}
+
+footer .bottom-container .subscribe-container h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
+    position: relative;
+}
+
+footer .bottom-container .subscribe-container h3::before{
+    content: ' ';
+    height: 2px;
+    width: 38px;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+footer .bottom-container .subscribe-container input{
+    padding: 5px 15px;
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+    border-style: none;
+    margin: 10px 0px;
+}
+
+footer .bottom-container .subscribe-container button{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.9rem;
+    background-color: #2245C5;
+    border-radius: 8px;
+    border-style: none;
+    color: white;
+}
