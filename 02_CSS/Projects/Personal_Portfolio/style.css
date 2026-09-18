@@ -249,7 +249,7 @@ header nav a:hover, header nav ul li .active{
 .skills-section h2{
     font-size: 5rem;
     position: relative;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 .skills-section h2::before{
@@ -275,14 +275,19 @@ header nav a:hover, header nav ul li .active{
     margin-bottom: 10px;
 }
 
-.skills-container .lang-icons, .frame-icons{
+.skills-section h3::first-letter{
+    font-size: 2.9rem;
+    color: #36B7F0;
+}
+
+.skills-container .lang-icons, .frame-icons, .tools-icons{
     display: flex;
     gap: 25px;
     justify-content: center;
     align-items: center;
 }
 
-.skills-container .lang-icons a, .frame-icons a{
+.skills-container .lang-icons a, .frame-icons a, .tools-icons a{
     font-size: 4.5rem;
     text-align: center;
     color: white;
@@ -291,6 +296,8 @@ header nav a:hover, header nav ul li .active{
     width: 80px;
     line-height: 80px;
     border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: .6s linear;
 }
 
 .lang-icons a:nth-child(1){
@@ -319,6 +326,13 @@ header nav a:hover, header nav ul li .active{
     background: white;
 }
 
+.lang-icons a:hover{
+    color: white;
+    background: transparent;
+    box-shadow: 0px 0px 15px #7cf03d;
+    scale: 1.05;
+}
+
 .frame-icons a:nth-child(1){
     color: rgb(138, 89, 183);
     background: #292929;
@@ -342,4 +356,43 @@ header nav a:hover, header nav ul li .active{
 .frame-icons a:nth-child(5){
     color: #36B7F0;
     background: white;
+}
+
+.frame-icons a:hover{
+    color: white;
+    background: transparent;
+    box-shadow: 0px 0px 15px #7cf03d;
+    scale: 1.05;
+}
+
+.tools-icons a:nth-child(1){
+    color: white;
+    background: #E94F31;
+}
+
+.tools-icons a:nth-child(2){
+    color: white;
+    background: #3178C6;
+}
+
+.tools-icons a:nth-child(3){
+    color: #2560FF;
+    background: white;
+}
+
+.tools-icons a:nth-child(4){
+    color: black;
+    background: white;
+}
+
+.tools-icons a:nth-child(5){
+    color: white;
+    background: #EB920E;
+}
+
+.tools-icons a:hover{
+    color: white;
+    background: transparent;
+    box-shadow: 0px 0px 15px #7cf03d;
+    scale: 1.05;
 }
