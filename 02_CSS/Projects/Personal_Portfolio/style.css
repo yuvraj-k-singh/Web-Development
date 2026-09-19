@@ -706,6 +706,7 @@ header nav a:hover, header nav ul li .active{
 }
 
 .contact-section .form-container{
+    height: 70vh;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -758,9 +759,29 @@ header nav a:hover, header nav ul li .active{
 .form-text input{
     height: 45px;
     width: 100%;
-    border-radius: 8px;
+    border-radius: 10px;
     border-style: none;
     padding: 0px 15px;
     font-size: 1.4rem;
     font-weight: 500;
+}
+
+.form-text textarea{
+    height: 95px;
+    width: 100%;
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px 15px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.form-text button{
+    padding: 16px 40px;
+    border-radius: 25px;
+    border-style: none;
+    font-size: 1.65rem;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-align: center;
 }
