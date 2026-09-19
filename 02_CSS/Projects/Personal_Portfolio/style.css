@@ -542,9 +542,8 @@ header nav a:hover, header nav ul li .active{
     width: 100%;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     transition: all .3s ease;
-    border: 0.1px solid #a1a1a1;
 }
 
 .project-container .project:hover{
@@ -588,6 +587,88 @@ header nav a:hover, header nav ul li .active{
 }
 
 .project-content span{
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    background: rgba(255, 192, 0, 0.1);
+    color: #7cf03d;
+    box-shadow: none;
+    border-radius: 8px;
+    border: 2px solid #7cf03d;
+}
+
+/* Certificate Section */
+.certificate-section{
+    min-height: 100vh;
+    width: 100%;
+    padding: 25px 9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+.certificate-section h2{
+    font-size: 5rem;
+    position: relative;
+}
+
+.certificate-section h2::before{
+    content: '';
+    height: 55px;
+    width: 4px;
+    background-color: #7cf03d;
+    position: absolute;
+    left: -12px;
+    bottom: 8px;
+}
+
+.certificate-section .certificate-container{
+    min-height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 25px;
+    margin-top: 15px;
+}
+
+.certificate-container .certificate{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    transition: all .3s ease;
+}
+
+.certificate:hover{
+    transform: translateY(-5px);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.certificate img{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.certificate .certificate-content{
+    height: 100%;
+    width: 100%;
+    padding: 6px 15px 15px;
+    background-color: #1f1f1f;
+}
+
+.certificate-content h3{
+    font-size: 2.2rem;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    color: #e0e0e0;
+    margin-bottom: 6px;
+}
+
+.certificate-content span{
     display: inline-block;
     padding: 5px;
     text-decoration: none;
