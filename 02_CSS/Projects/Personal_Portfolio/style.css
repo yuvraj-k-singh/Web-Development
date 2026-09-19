@@ -678,3 +678,89 @@ header nav a:hover, header nav ul li .active{
     border-radius: 8px;
     border: 2px solid #7cf03d;
 }
+
+/* Contact Section */
+.contact-section{
+    min-height: 100vh;
+    width: 100%;
+    padding: 25px 9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+.contact-section h2{
+    font-size: 5rem;
+    position: relative;
+}
+
+.contact-section h2::before{
+    content: '';
+    height: 55px;
+    width: 4px;
+    background-color: #7cf03d;
+    position: absolute;
+    left: -12px;
+    bottom: 8px;
+}
+
+.contact-section .form-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid white;
+    gap: 10px;
+}
+
+.form-container .form-img{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-img img{
+    height: auto;
+    width: 70%;
+    object-fit: cover;
+}
+
+.form-container .form-text{
+    height: 100%;
+    width: 100%;
+    padding: 0px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-text h3{
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    color: #e0e0e0;
+    margin-bottom: 6px;
+}
+
+.form-text p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    color: #a0a0a0;
+    margin-bottom: 8px;
+}
+
+.form-text div{
+    margin-bottom: 18px;
+}
+.form-text input{
+    height: 45px;
+    width: 100%;
+    border-radius: 8px;
+    border-style: none;
+    padding: 0px 15px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
