@@ -1076,3 +1076,56 @@ footer .footer-container{
         box-shadow: none;
     }
 }
+
+@keyframes fadeInPage {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideDownHeader {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply page load animations */
+body {
+    animation: fadeInPage 1s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+header {
+    animation: slideDownHeader 0.8s ease-out forwards;
+}
+
+@keyframes heroFloat {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-12px);
+    }
+}
+
+@keyframes pulseGlow {
+    0%, 100% {
+        box-shadow: 0 0 15px rgba(124, 240, 61, 0.3);
+    }
+    50% {
+        box-shadow: 0 0 35px rgba(124, 240, 61, 0.7);
+    }
+}
+
+.home-img .img-box {
+    animation: heroFloat 4s ease-in-out infinite, pulseGlow 4s ease-in-out infinite;
+}
