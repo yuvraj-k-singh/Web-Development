@@ -1,0 +1,83 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.main-section{
+    height: 100vh;
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 3.8rem;
+}
+
+.lunar-container{
+    height: 550px;
+    width: 58%;
+    background-color: #ffbb56;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: changeSky 10s ease-in-out infinite;
+}
+
+@keyframes changeSky {
+    0%{
+        background-color: #ffbb56;
+    }
+    25%{
+        background-color: #ffbb56c4;
+    }
+    50%{
+        background-color: #070707;
+    }
+    75%{
+        background-color: #ffbb56c3;
+    }
+    100%{
+        background-color: #ffbb56;
+    }
+}
+
+.lunar-container .outer-circle{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.lunar-container .inner-circle{
+    height: 330px;
+    width: 330px;
+    border-radius: 50%;
+    background-color: black;
+    animation: movingSun 10s ease-in-out infinite;
+}
+
+@keyframes movingSun {
+    0%{
+        translate: 100%;
+        scale: 1.4;
+    }
+    50%{
+        translate: 0%;
+        scale: 0.90;
+    }
+    100%{
+        translate: -100%;
+        scale: 1.4;
+    }
+}
