@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* CSS variable declaration */
+:root{
+    --bg-color: #1f242d;
+    --text-color: #7cf03d;
+    --p-color: #e1e1e1;
+    --p-size: 1.6rem;
+}
+
+html{
+    color: white;
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+    background-color: var(--bg-color, black);
+}
+
+.hero-section{
+    padding: 25px 9%;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container{
+    height: 650px;
+    width: 100%;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1.3fr 1fr;
+}
+
+.hero-container .hero-text, .hero-img figure{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-container .hero-text h1{
+    font-size: 5.5rem;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: movingTextH1 5s steps(17) forwards infinite;
+    border-right: 2px solid white;
+}
+
+@keyframes movingTextH1 {
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 17ch;
+        color: transparent;
+        -webkit-text-stroke: .7px var(--text-color) ;
+    }
+    100%{
+        width: 0ch;
+    }
+}
+
+.hero-container .hero-text p{
+    font-size: var(--p-size);
+    letter-spacing: 0.6px;
+    line-height: 24px;
+    color: var(--p-color);
+}
+
+/* CSS variable Use */
+.hero-text a{
+    --variable-test: #6b2b2b;
+    display: inline-block;
+    height: 45px;
+    width: 170px;
+    border: 2px solid var(--text-color);
+    border-radius: 40px;
+    background-color: var(--text-color);
+    box-shadow: 0px 0px 5px var(--text-color);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--variable-test);
+}
+
+.hero-container .hero-img figure{
+    align-items: center;
+}
+
+.hero-img figure img{
+    height: auto;
+    width: 85%;
+    object-fit: cover;
+}
