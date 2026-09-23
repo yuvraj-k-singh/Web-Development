@@ -254,4 +254,74 @@ header .navbar .logo img{
     background-color: #404b3e;
 }
 
+/* Section 1, Section 2, Section 3*/
+.section-1, .section-2, .section-3{
+    width: 100%;
+    padding: 10px 5%;
+}
 
+.section-1 .one-container, .section-2 .two-container, .section-3 .three-container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    background-color: #006242;
+}
+
+.section-1 .one-container .one-img, .section-2 .two-container .two-img, .section-3 .three-container .three-img{
+    height: 100%;
+    width: 100%;
+}
+
+.section-1 .one-container .one-img figure, .section-2 .two-container .two-img figure, .section-3 .three-container .three-img figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1 .one-container .one-img figure img, .section-2 .two-container .two-img figure img, .section-3 .three-container .three-img figure img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section-1 .one-container .one-text, .section-2 .two-container .two-text, .section-3 .three-container .three-text{
+    padding: 0px 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    text-align: center;
+    gap: 15px;
+}
+
+.section-1 .one-container .one-text h2, .section-2 .two-container .two-text h2, .section-3 .three-container .three-text h2{
+    font-size: 3rem;
+    letter-spacing: 0.8px;
+}
+
+.section-1 .one-container .one-text p, .section-2 .two-container .two-text p, .section-3 .three-container .three-text p{
+    font-size: 1.6rem;
+    letter-spacing: 0.8px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.section-1 .one-container .one-text a, .section-2 .two-container .two-text a, .section-3 .three-container .three-text a{
+    text-decoration: none;
+    text-align: center;
+    padding: 6px 20px;
+    border: 2px solid white;
+    border-radius: 45px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: white;
+    transition: .5s;
+    margin-top: 8px;
+}
+
+.section-2 .two-container{
+    background-color: #015b3d;
+}
