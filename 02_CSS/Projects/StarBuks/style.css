@@ -20,7 +20,8 @@ header{
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 100;
+    background-color: #FFFFFF;
 }
 
 header .navbar{
@@ -63,7 +64,7 @@ header .navbar .logo img{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 640px;
+    margin-left: auto;
     gap: 15px;
 }
 
@@ -213,3 +214,44 @@ header .navbar .logo img{
 .hero-container .hero-img figure img:hover{
     scale: 0.9;
 }
+
+/* Order section */
+.order-section{
+    width: 100%;
+    padding: 35px 5%;
+}
+
+.order-section .order-container{
+    height: 100%;
+    width: 100%;
+    background-color: #32462F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-section .order-container p{
+    padding: 35px 45px;
+    font-size: 2rem;
+    font-weight: 580;
+    text-align: center;
+}
+
+.order-section .order-container a{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 22px;
+    border: 2px solid white;
+    border-radius: 45px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: white;
+    margin-left: -15px;
+    transition: .5s;
+}
+
+.order-section .order-container a:hover{
+    background-color: #404b3e;
+}
+
+
