@@ -49,3 +49,31 @@ console.log();
 
 
 /* Non-Primitive DataType */
+
+//1. Array
+let arr = [1,2,"Yuvraj", true, false, "Pari"];
+console.log("Array elements: "+arr);
+console.log("Type of Arr: "+typeof arr);
+console.log();
+
+//2. Object
+let student = {
+    name: "Yuvraj Kumar Singh",
+    section: "CS-5",
+    e_No: "0818CS241389",
+    cgpa: 8.28
+};
+
+console.log("Student Details: ");
+console.log(student);
+console.log(`Student name: ${student.name}`);
+console.log("Type of Student: "+typeof student);
+console.log();
+
+
+//3. Function
+function greet() {
+    console.log("Hello from function!");
+}
+greet();
+console.log("Type of function: "+ typeof greet);
