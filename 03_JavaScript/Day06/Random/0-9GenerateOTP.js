@@ -1,0 +1,1 @@
+console.log(`OTP (0-9): ${Math.floor(Math.random()*10)}`);

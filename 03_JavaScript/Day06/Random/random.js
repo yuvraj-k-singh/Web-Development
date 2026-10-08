@@ -1,0 +1,1 @@
+console.log(`Random Number (0-1): ${Math.random()}`);
