@@ -1,0 +1,1 @@
+console.log(`Dice Cube (1-6): ${(Math.floor(Math.random()*6)+1)}`);
