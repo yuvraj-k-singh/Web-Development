@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Header section */
+header{
+    width: 100%;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    background-color: #5C402D;
+}
+
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+}
+
+header nav .logo{
+    text-decoration: none;
+    color: #F6D8B3;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+header nav .nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #c7c4c1;
+    text-align: center;
+}
+
+header nav .nav-links .active{
+    background-color: #F8DBB7;
+    border-radius: 18px;
+    padding: 5px 12px;
+    color: #50340E;
+    font-weight: 600;
+}
+
+/* Home Section */
+.home-section{
+    height: calc(100vh - 95px);
+    width: 100vw;
+    padding: 25px 9%;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.home-section .text-box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-section .text-box .text-area p{
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.home-section .text-box .text-area h1{
+    margin-top: -15px;
+    font-size: 8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.home-section .text-box .text-area h2{
+    font-size: 2rem;
+    font-weight: 480;
+    letter-spacing: 0.7px;
+}
+
+.home-section .btn-area{
+    padding: 15px 35px;
+    height: auto;
+    width: 100%;
+    display: flex;
+}
