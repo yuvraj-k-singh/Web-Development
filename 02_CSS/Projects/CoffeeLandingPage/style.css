@@ -57,9 +57,9 @@ header nav .nav-links li a{
 header nav .nav-links li .active{
     background-color: #F8DBB7;
     border-radius: 20px;
-    padding: 5px 18px;
+    padding: 8px 16px;
     color: #50340E;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: 520;
 }
 
@@ -357,4 +357,132 @@ header nav .nav-links li .active{
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+/* Menu section */
+.menu-section{
+    width: 100%;
+    padding: 120px 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    background-color: #5C402D;
+}
+
+.menu-section .top-box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Oswald', Courier, monospace;
+}
+
+.menu-section .top-box .menu-text p{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 450;
+    letter-spacing: 0.8px;
+    color: #FFEEDC;
+}
+
+.menu-section .top-box .menu-text h2{
+    margin-top: -5px;
+    font-size: 4.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    color: #FFEEDC;
+}
+
+.menu-section .top-box .view-btn{
+    display: inline-block;
+    padding: 12px 40px;
+    border: 2px solid #FFEEDC;
+    border-radius: 5px;
+}
+
+.menu-section .top-box .view-btn a{
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #FFEEDC;
+    text-transform: capitalize;
+}
+
+.menu-section .bottom-box{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    
+}
+
+.menu-section .bottom-box .card{
+    background-color: #6F4D37;
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.menu-section .bottom-box .card .img-box figure{
+    padding: 1px;
+}
+
+.menu-section .bottom-box .card .img-box figure img{
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.menu-section .bottom-box .card .text-box{
+    width: 100%;
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.menu-section .bottom-box .card .text-box .about-text h3{
+    font-size: 2.5rem;
+    color: #c7c4c1;
+    letter-spacing: 0.7px;
+}
+
+.menu-section .bottom-box .card .text-box .about-text p{
+    font-size: 1.2rem;
+    font-weight: 480;
+    color: #c7c4c1be;
+    letter-spacing: 0.7px;
+}
+
+.menu-section .bottom-box .card .text-box .price-text{
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-section .bottom-box .card .text-box .price-text h4{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #c7c4c1;
+    letter-spacing: 0.7px;
+}
+
+.menu-section .bottom-box .card .text-box .price-text a{
+    font-size: 1.4rem;
+    font-weight: 650;
+    color: #6E502C;
+    border-radius: 45px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 22px;
+    background-color: #c7c4c1;
 }
