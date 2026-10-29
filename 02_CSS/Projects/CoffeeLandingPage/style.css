@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html{
@@ -62,6 +63,7 @@ header nav .nav-links li .active{
     font-size: 1.5rem;
     font-weight: 520;
 }
+
 
 /* Home Section */
 .home-section{
@@ -254,6 +256,7 @@ header nav .nav-links li .active{
     top: -30px;
 }
 
+
 /* About section */
 .about-section{
     min-height: auto;
@@ -358,6 +361,7 @@ header nav .nav-links li .active{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 
 /* Menu section */
 .menu-section{
@@ -485,4 +489,113 @@ header nav .nav-links li .active{
     text-align: center;
     padding: 10px 22px;
     background-color: #c7c4c1;
+}
+
+
+/* Review Section */
+.review-section{
+    min-height: auto;
+    width: 100%;
+    padding: 85px 8%;
+    background-color: #3F2716;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    gap: 65px;
+}
+
+.review-section .top-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review-section .top-container h2, p{
+    font-size: 4.6rem;
+    letter-spacing: 0.9px;
+    color: #FFEEDE;
+    font-family: 'Oswald', Courier, monospace;
+    text-transform: uppercase;
+}
+
+.review-section .top-container p{
+    margin-top: 40px;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    position: relative;
+}
+
+.review-section .top-container p::before{
+    content: '\2605\2605\2605\2605\2605';
+    position: absolute;
+    color: rgba(255, 255, 0, 0.66);
+    font-size: 2rem;
+    top: -30px;
+}
+
+.review-section .bottom-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 25px;
+}
+
+.review-section .bottom-container .review-card{
+    width: 100%;
+    padding: 15px 5px;
+    overflow: hidden;
+    border-radius: 25px;
+    background-color: #3F2716;
+    border: 1px solid #5f4837;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.review-section .bottom-container .review-card .name{
+    padding: 10px 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.review-section .bottom-container .review-card .name .img-box{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.review-section .bottom-container .card-1 .name .img-box{
+    background-image: url('./Images/user-2.jpg');
+}
+
+.review-section .bottom-container .card-2 .name .img-box{
+    background-image: url('./Images/user-3.jpg');
+}
+
+.review-section .bottom-container .card-3 .name .img-box{
+    background-image: url('./Images/user-1.jpg');
+}
+
+.review-section .bottom-container .review-card .name h3{
+    font-size: 2rem;
+    color: #FAE9D9;
+    letter-spacing: 0.8px;
+    font-weight: 520;
+}
+
+.review-section .bottom-container .review-card .message{
+    width: 100%;
+    padding: 6px 15px;
+}
+
+.review-section .bottom-container .review-card .message p{
+    font-size: 1.6rem;
+    color: #fae9d9b3;
+    letter-spacing: 0.8px;
+    font-weight: 420;
+    text-transform: capitalize;
 }
