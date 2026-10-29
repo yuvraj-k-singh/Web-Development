@@ -496,7 +496,7 @@ header nav .nav-links li .active{
 .review-section{
     min-height: auto;
     width: 100%;
-    padding: 85px 8%;
+    padding: 110px 8%;
     background-color: #3F2716;
     display: grid;
     grid-template-rows: 1fr 3fr;
@@ -598,4 +598,129 @@ header nav .nav-links li .active{
     letter-spacing: 0.8px;
     font-weight: 420;
     text-transform: capitalize;
+}
+
+
+/* Contact Section */
+.contact-section{
+    min-height: auto;
+    width: 100%;
+    padding: 35px 8%;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    gap: 35px;
+    background-color: #fcf0dec1;
+}
+
+.contact-section .top-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.contact-section .top-container::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #ECE0CE;
+    position: absolute;
+    bottom: -40px;
+}
+
+.contact-section .top-container h2{
+    font-size: 4rem;
+    color: #3B2A19;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-family: 'Oswald', Courier, monospace;
+    font-weight: 550;
+}
+
+.contact-section .top-container .email input{
+    height: 48px;
+    width: 350px;
+    padding: 5px 15px;
+    border: 1px none #ffffffa4;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    margin-right: 8px;
+}
+
+.contact-section .top-container .email button{
+    padding: 13px 32px;
+    background-color: #3F2716;
+    color: #f4f4f4d6;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 550;
+    letter-spacing: 0.7px;
+}
+
+.contact-section footer{
+    min-height: auto;
+    width: 100%;
+    padding: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 320px;
+}
+
+.contact-section footer .section-one, .section-two, .section-three{
+    width: 100%;
+    padding: 45px 0px;
+}
+
+.contact-section footer .section-one h2{
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-family: 'Oswald', Courier, monospace;
+    color: #3B2A19;
+}
+
+.contact-section footer .section-one p{
+    margin-top: 20px;
+    font-size: 1.4rem;
+    color: #312418ca;
+    letter-spacing: 0.8px;
+}
+
+.contact-section footer .section-two h2, .section-three h2{
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-family: 'Oswald', Courier, monospace;
+    color: #3B2A19;
+    margin-bottom: 20px;
+}
+
+.contact-section footer .section-two ul, .section-three ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contact-section footer .section-two ul li a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #312418ca;
+}
+
+.contact-section footer .section-three ul li{
+    font-size: 1.6rem;
+}
+
+.contact-section footer .section-three ul li a{
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #312418ca;
 }
