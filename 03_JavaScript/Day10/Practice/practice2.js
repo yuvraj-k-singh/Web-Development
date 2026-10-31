@@ -1,0 +1,3 @@
+console.log(x); //referenceError
+let x = 20;
+console.log(x); //20
