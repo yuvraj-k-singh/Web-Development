@@ -1,3 +1,5 @@
+//Get the names of all products.
+
 const products = [
     { id: 1, name: "Laptop", category: "Electronics", price: 55000 },
     { id: 2, name: "Mobile", category: "Electronics", price: 25000 },

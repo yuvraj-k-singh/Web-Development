@@ -1,3 +1,5 @@
+//Find all products whose price is greater than ₹10,000.
+
 const products = [
     { id: 1, name: "Laptop", category: "Electronics", price: 55000 },
     { id: 2, name: "Mobile", category: "Electronics", price: 25000 },
