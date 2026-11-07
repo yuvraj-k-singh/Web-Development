@@ -1,0 +1,47 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home{
+    min-height: 100vh;
+    width: 100%;
+    padding: 25px 35px;
+    background-color: rgb(16, 13, 11);
+}
+
+#heading1{
+    color: rgb(38, 207, 23);
+    margin-bottom: 8px;
+}
+
+#heading2{
+    color: rgb(23, 143, 207);
+    margin-bottom: 5px;
+}
+
+.para{
+    font-size: 18px;
+    color: dimgray;
+}
+
+#heading3{
+    color: rgb(23, 143, 207);
+    margin-top: 8px;
+}
+
+ul{
+    font-size: 16px;
+    list-style-position: inside;
+    color: darkgoldenrod;
+}
+
+button{
+    font-size: 18px;
+    margin-top: 15px;
+    padding: 13px 35px;
+    border-radius: 18px;
+    background-color: chocolate;
+    border-style: none;
+}
