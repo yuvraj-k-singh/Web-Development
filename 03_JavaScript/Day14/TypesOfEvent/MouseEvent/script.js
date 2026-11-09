@@ -2,6 +2,7 @@ let btn = document.querySelector("button");
 let div1 = document.querySelector("#div1");
 let div2 = document.querySelector("#div2");
 let div3 = document.querySelector("#div3");
+let div4 = document.querySelector("#div4");
 
 btn.addEventListener('click', ()=>{
     console.log(`Mouse Click`);
@@ -17,8 +18,12 @@ div2.addEventListener('mouseover', ()=>{
 
 div3.addEventListener('mousedown', ()=>{
     console.log(`Mouse Pressed`);
-})
+});
 
 div3.addEventListener('mouseup', ()=>{
     console.log(`Mouse Release`);
+});
+
+div4.addEventListener('mouseout', ()=>{
+    console.log(`Mouse Out`);
 })
