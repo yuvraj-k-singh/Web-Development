@@ -16,16 +16,18 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #1D2735;
+    font-family: system-ui, -apple-system, sans-serif;
 }
 
 .main-container{
     width: 100%;
     padding: 15px 35px;
     background-color: aliceblue;
-    border-radius: 10px;
+    border-radius: 13px;
     display: flex;
     flex-direction: column;
     gap: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 .main-container .text-container{
@@ -66,7 +68,8 @@ body{
     padding: 5px 15px;
     border-radius: 8px;
     border-style: none;
-    background-color: aqua;
+    background-color: #E2E8F0;
+    color: #1E293B;
     font-size: 1.8rem;
     font-weight: 550;
 }
@@ -76,10 +79,12 @@ body{
     padding: 0 58px;
     border-radius: 8px;
     border-style: none;
-    background-color: #2867ED;
-    color: whitesmoke;
+    background-color: #2563EB;
+    color: #FFFFFF;
     font-size: 1.55rem;
     font-weight: 550;
+    white-space: nowrap;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
 }
 
 .result-container{
@@ -89,9 +94,9 @@ body{
     display: flex;
     flex-direction: column;
     gap: 5px;
-    visibility: hidden;
-    background-color: aqua;
+    background-color: #E2E8F0;
     border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
 }
 
 .result-container .child{
@@ -100,13 +105,15 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 12px;
     background-color: #1D2735;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 550;
     text-transform: capitalize;
     border-radius: 10px;
     color: orange;
     letter-spacing: 0.7px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 .result-container .child .remove-btn{
@@ -116,4 +123,27 @@ body{
     border-style: none;
     font-size: 1.45rem;
     font-weight: 550;
+    background-color: #EF4444;
+    color: #FFFFFF;
+}
+
+.result-container .child .done-btn{
+    padding: 9px 45px;
+    text-align: center;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 1.45rem;
+    font-weight: 550;
+    margin-left: auto;
+    background-color: #10B981;
+    color: #FFFFFF;
+}
+
+button {
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+button:hover {
+    opacity: 0.9;
 }
