@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+
+.circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    animation: grow 5s forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+    transition: all 0.6s;
+}
+
+@keyframes grow {
+    0%{
+        scale: 1;
+        opacity: 1;
+        font-size: 12px;
+        font-weight: 450;
+        text-transform: uppercase;
+    }
+    100%{
+        scale: 3;
+        opacity: 0;
+        font-size: 25px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+}
