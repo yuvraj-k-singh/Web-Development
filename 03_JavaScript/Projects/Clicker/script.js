@@ -12,4 +12,8 @@ body.addEventListener("click", (e)=>{
     circle.style.left = `${e.clientX}px`;
 
     body.append(circle);
+
+    setTimeout(()=>{
+        circle.remove();
+    },5000)
 });
