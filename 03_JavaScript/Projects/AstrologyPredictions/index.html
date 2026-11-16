@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astrology Prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="home">
+        <div class="prediction-container">
+            <h1>Get Your Free Prediction Today!</h1>
+            <form action="#">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" name="name" id="name" placeholder="Enter your full Name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="dob">Date Of Birth</label>
+                        <input type="date" name="dob" id="dob" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="time">Time of Birth</label>
+                        <input type="time" name="time" id="time" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="place">Place of Birth</label>
+                        <input type="text" name="place" id="place" placeholder="Enter your Place of Birth" required>
+                    </div>
+                </div>
+                <div class="gender">
+                    <input type="radio" name="gender" id="male" value="male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female" required>
+                    <label for="female">Female</label>
+                </div>
+                <button type="submit">Get Prediction</button>
+            </form>
+            <div class="result" id="result"></div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
