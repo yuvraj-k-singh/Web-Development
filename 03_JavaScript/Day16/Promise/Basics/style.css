@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    padding: 45px 16%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    min-height: fit-content;
+    width: 100%;
+    padding: 15px 35px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background-color: blueviolet;
+}
+
+.main-container .form-container{
+    height: 100%;
+    width: 100%;
+}
+
+.main-container .form-container form{
+    height: 100%;
+    width: 100%;
+}
+
+.main-container .form-container form div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.main-container .form-container form div input{
+    height: 42px;
+    width: 100%;
+    padding: 3px 15px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: aqua;
+    color: black;
+    font-size: 1.45rem;
+    font-weight: 480;
+}
+
+.main-container .form-container form div button{
+    height: 42px;
+    width: 40%;
+    border-radius: 8px;
+    border-style: none;
+    text-align: center;
+    font-size: 1.45rem;
+    font-weight: 550;
+    background-color: orange;
+}
+
+.main-container .result{
+    min-height: fit-content;
+    padding: 12px 15px;
+    width: 100%;
+    background-color: rgb(104, 193, 193);
+    border-radius: 8px;
+    border-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.main-container .result h1{
+    color: brown;
+    font-size: 2.8rem;
+}
