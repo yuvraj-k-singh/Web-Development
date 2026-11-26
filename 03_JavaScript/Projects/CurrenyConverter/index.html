@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curreny Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <h1 id="h1_heading">Exchange Rate and Currency Converter Tool</h1>
+    <p id="p_heading">Check live foreign currency exchange rates</p>
+
+    <div class="main-container">
+        <form action="#">
+            <h1>Currency Converter</h1>
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input type="text" name="amount" id="amount" placeholder="Enter amount here" required>
+            </div>
+
+            <div class="dropdown">
+                <div class="from">
+                    <p style="text-align: center;">From</p>
+                    <div class="select">
+                        <img src="https://flagsapi.com/US/flat/64.png" alt="county-flag">
+                        <select name="from">
+                        </select>
+                    </div>
+                </div>
+                    
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+
+                <div class="to">
+                    <p style="text-align: center;">To</p>
+                    <div class="select">
+                        <img src="https://flagsapi.com/IN/flat/64.png" alt="county-flag">
+                        <select name="to">
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <h2 id="msg">1USD = 92Rupees</h2>
+            <button>Get Exchange Rate</button>
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

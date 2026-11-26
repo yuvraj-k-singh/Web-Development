@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    color: black;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    padding: 0 20%;
+    background-image: url('./background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+body #h1_heading{
+    font-size: 4.55rem;
+    color: #FFFFFF;
+}
+
+body #p_heading{
+    margin-top: -12px;
+    font-size: 2.8rem;
+    color: #FFFFFF;
+}
+
+.main-container{
+    min-height: 200px;
+    width: 70%;
+    background-color: #FFFFFF;
+    border-radius: 22px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.main-container form{
+    height: 100%;
+    width: 100%;
+    padding: 38px 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.main-container form h1{
+    font-size: 2.75rem;
+    font-weight: 650;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    color: #292A2C;
+}
+
+.main-container form input, select, button{
+    height: 42px;
+    width: 100%;
+    border: none;
+}
+
+.main-container form input{
+    border: 1px solid lightgray;
+    font-size: 2rem;
+    padding: 2px 12px;
+    border-radius: 8px;
+}
+
+.main-container form p{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.main-container form .dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.main-container form .dropdown .select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    padding: 2px 5px;
+}
+
+.main-container form .dropdown .select img{
+    height: 45px;
+    width: 45px;
+}
+
+.main-container #msg{
+    font-size: 2.25rem;
+    color: #292A2C;
+}
+
+.main-container i{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.main-container button{
+    color: white;
+    font-size: 2rem;
+    font-weight: 550;
+    background-color: #1658FF;
+    border-radius: 12px;
+}
